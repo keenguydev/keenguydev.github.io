@@ -1,0 +1,48 @@
+ {
+  "palette": {
+    "primary": {
+      "main": "#0050ff"
+    }
+  },
+  "components": {
+    "MuiButton": {
+      "variants": [
+        {
+          "props": {
+            "variant": "base"
+          },
+          "style": {
+            "fontSize": "12px",
+            "lineHeight": "14.5px",
+            "color": "#000",
+            "textTransform": "none",
+            "border": "1px solid",
+            "borderColor": "var(--gray-light-color)",
+            "borderRadius": "0",
+            "fontFamily": "Inter,sans-serif"
+          }
+        },
+        {
+          "props": {
+            "variant": "base__active"
+          },
+          "style": {
+            "fontSize": "12px",
+            "lineHeight": "14.5px",
+            "color": "#fff",
+            "textTransform": "none",
+            "border": "1px solid",
+            "borderColor": "var(--accent-light-color)",
+            "borderRadius": "0",
+            "fontFamily": "Inter,sans-serif",
+            "backgroundColor": "var(--accent-light-color)",
+            "&:hover": {
+              "borderColor": "var(--accent-dark-color)",
+              "backgroundColor": "var(--accent-light-color)"
+            }
+          }
+        }
+      ]
+    }
+  }
+}
