@@ -1,1 +1,0 @@
-import{a as t,I as a,e,r}from"./q-CiWxxG_J.js";import{t as c,c as o}from"./q-7tXBqjn8.js";const f=s=>{const l=t(s,["class","col"]);return a("ul",{class:c("flex flex-wrap text-sm text-gray-500 dark:text-white",(s.col??!1)&&"flex-col space-y-4",o(s.class)),...l,children:e(r,null,3,"Ip_173")},null,0,"Ip_174")};export{f as s_i15sPURp1Cs};

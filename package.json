@@ -1,0 +1,54 @@
+{
+  "name": "my-qwik-empty-starter",
+  "devDependencies": {
+    "@builder.io/qwik": "^1.16.1",
+    "@builder.io/qwik-city": "^1.16.1",
+    "@eslint/js": "latest",
+    "@tailwindcss/vite": "^4.1.13",
+    "@types/node": "20.19.0",
+    "eslint": "9.32.0",
+    "eslint-plugin-qwik": "^1.16.1",
+    "flowbite": "^3.1.2",
+    "flowbite-qwik": "^1.1.2",
+    "flowbite-qwik-icons": "^0.1.10",
+    "globals": "16.3.0",
+    "prettier": "3.6.2",
+    "prettier-plugin-tailwindcss": "^0.6.14",
+    "tailwindcss": "^4.1.13",
+    "typescript": "5.4.5",
+    "typescript-eslint": "8.38.0",
+    "typescript-plugin-css-modules": "latest",
+    "undici": "^7.16.0",
+    "vite": "7.1.4",
+    "vite-tsconfig-paths": "^4.3.2"
+  },
+  "description": "Blank project with routing included",
+  "engines": {
+    "node": "^18.17.0 || ^20.3.0 || >=21.0.0"
+  },
+  "engines-annotation": "Mostly required by sharp which needs a Node-API v9 compatible runtime",
+  "private": true,
+  "scripts": {
+    "build": "qwik build",
+    "build.client": "vite build",
+    "build.preview": "vite build --ssr src/entry.preview.tsx",
+    "build.server": "qwik check-client src dist && vite build -c adapters/static/vite.config.ts",
+    "build.types": "tsc --incremental --noEmit",
+    "deploy": "echo 'Run \"npm run qwik add\" to install a server adapter'",
+    "dev": "vite --mode ssr",
+    "dev.debug": "node --inspect-brk ./node_modules/vite/bin/vite.js --mode ssr --force",
+    "flowbite": "^3.1.2",
+    "flowbite-qwik": "^1.1.2",
+    "flowbite-qwik-icons": "^0.1.10",
+    "fmt": "prettier --write .",
+    "fmt.check": "prettier --check .",
+    "lint": "eslint \"src/**/*.ts*\"",
+    "preview": "qwik build preview && vite preview --open",
+    "start": "vite --open --mode ssr",
+    "qwik": "qwik"
+  },
+  "type": "module",
+  "dependencies": {
+    "dayjs": "^1.11.18"
+  }
+}

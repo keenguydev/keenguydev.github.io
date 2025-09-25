@@ -1,1 +1,0 @@
-import{ao as l}from"./q-7tXBqjn8.js";import{R as o,e as r,r as e}from"./q-CiWxxG_J.js";const a=n=>o("li",null,null,r(l,{...n,children:r(e,null,3,"Ip_270")},0,"Ip_271"),1,"Ip_272");export{a as s_cM9iVgrYoMs};

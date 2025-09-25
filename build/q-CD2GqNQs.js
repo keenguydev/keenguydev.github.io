@@ -1,1 +1,0 @@
-import{a,I as l,e as r,r as e}from"./q-CiWxxG_J.js";import{t as o,c}from"./q-7tXBqjn8.js";const x=t=>{const s=a(t,["class"]);return l("blockquote",{class:o("text-xl font-semibold italic text-gray-900 dark:text-white",c(t.class)),...s,children:r(e,null,3,"Ip_57")},null,0,"Ip_58")};export{x as s_G00vVLus0zo};

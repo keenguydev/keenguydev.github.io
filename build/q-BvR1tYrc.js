@@ -1,1 +1,0 @@
-import{B as s}from"./q-CiWxxG_J.js";import{_hW as g}from"./q-CiWxxG_J.js";const c=async(r,a,n,o)=>{!o.value||a.flatMap(t=>{const e=s(t)?t.value:document.querySelector(t);return e?[e]:[]}).some(t=>t===r.target||t.contains(r.target))||await n()};export{g as _hW,c as s_twLt9w0GXPY};

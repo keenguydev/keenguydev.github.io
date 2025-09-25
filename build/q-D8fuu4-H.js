@@ -1,1 +1,0 @@
-import{h as a}from"./q-CiWxxG_J.js";import{t,aS as o}from"./q-7tXBqjn8.js";const n=()=>{const[e,s,r]=a();return t(o,!r.value&&"hidden",(!s.value||e.value)&&"border-b-0",s.value&&"border-t-0",e.value&&"border-x-0")};export{n as s_Hg68rLwxAps};

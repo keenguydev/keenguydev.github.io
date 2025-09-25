@@ -1,1 +1,0 @@
-import{a,I as t,f as o}from"./q-CiWxxG_J.js";import{t as c,c as e}from"./q-7tXBqjn8.js";const g=r=>{const s=a(r,["class"]);return t("hr",{class:c("my-8 h-px border-0 bg-gray-200 dark:bg-gray-700",e(r.class)),role:"separator",...s},{role:o},0,"Ip_188")};export{g as s_lm204sOCJ0w};

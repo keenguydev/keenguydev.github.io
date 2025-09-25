@@ -1,1 +1,0 @@
-import{am as r,an as s}from"./q-7tXBqjn8.js";import{a as n,A as m,j as o,e as t,r as i}from"./q-CiWxxG_J.js";const l=e=>{const a=n(e,["theme"]);return m(r,o({theme:e.theme})),t(s,{...a,children:t(i,null,3,"Ip_283")},0,"Ip_284")};export{l as s_WfH4N4aI8qE};

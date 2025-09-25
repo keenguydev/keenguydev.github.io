@@ -1,1 +1,0 @@
-import{a as t,I as l,e as c,f as a,r as e}from"./q-CiWxxG_J.js";import{t as i,c as r}from"./q-7tXBqjn8.js";const I=s=>{const n=t(s,["class","icon"]);return l("li",{class:i(s.icon?"flex items-center":"",r(s.class)),...n,children:[s.icon&&c(s.icon,{class:"me-2 h-3.5 w-3.5 shrink-0",[a]:{class:a}},3,"Ip_208"),c(e,null,3,"Ip_209")]},null,0,"Ip_210")};export{I as s_pHoM215FjWs};
