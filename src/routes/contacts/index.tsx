@@ -1,11 +1,14 @@
-import { component$ } from "@builder.io/qwik";
+import { component$, Resource, useResource$ } from "@builder.io/qwik";
 import { type DocumentHead } from "@builder.io/qwik-city";
 import FCContacts from "~/entities/contacts";
 import { IContact } from "~/entities/contacts/types";
-import componentsData from '~/../public/json/contacts.json'
 
 export default component$(() => {
-  const contacts = componentsData as IContact[]
+  const contacts = useResource$<IContact[]>(async () => {
+    const response = await fetch('https://deirox.github.io/json/contacts.json')
+    const data = await response.json()
+    return data
+  })
 
   return (
     <div
@@ -24,7 +27,12 @@ export default component$(() => {
           аккаунте гитхаб
         </p>
       </div>
-      <FCContacts contacts={contacts} />
+      <Resource
+        value={contacts}
+        onPending={() => <>...loading</>}
+        onResolved={(_contacts) => <FCContacts contacts={_contacts} />}
+      />
+
     </div>
   );
 });
