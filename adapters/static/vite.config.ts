@@ -6,7 +6,7 @@ export default extendConfig(baseConfig, () => {
   return {
     plugins: [
       staticAdapter({
-        origin: "https://yoursite.qwik.dev",
+        origin: "https://deirox.github.io",
       }),
     ],
   };
