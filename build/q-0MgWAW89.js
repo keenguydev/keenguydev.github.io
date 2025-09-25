@@ -1,0 +1,1 @@
+import{a as e,I as n,e as l,r}from"./q-CiWxxG_J.js";import{aM as c,t as i,c as o}from"./q-7tXBqjn8.js";const p=s=>{const t=e(s,["class"]),a=c();return n("div",{class:i(a.horizontal.value&&"mt-3 sm:pr-8",o(s.class)),...t,children:l(r,null,3,"Ip_326")},null,0,"Ip_327")};export{p as s_ezUKci7tFEw};

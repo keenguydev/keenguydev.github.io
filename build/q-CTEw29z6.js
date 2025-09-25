@@ -1,0 +1,1 @@
+import{h as o}from"./q-CiWxxG_J.js";import{_hW as p}from"./q-CiWxxG_J.js";const s=t=>{const[e]=o();navigator.clipboard.writeText(t),e.value=!0,setTimeout(()=>{e.value=!1},2e3)};export{p as _hW,s as s_pW4OucSqSrA};

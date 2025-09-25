@@ -1,0 +1,1 @@
+import{a as o,I as l,e as r,r as n}from"./q-CiWxxG_J.js";import{aJ as c,t as b,c as t}from"./q-7tXBqjn8.js";const p=s=>{const a=o(s,["class"]),e=c();return l("tbody",{class:b("group/body",t(e.theme.value?.body),t(s.class)),...a,children:r(n,null,3,"Ip_295")},null,0,"Ip_296")};export{p as s_bW0pMg33H2k};

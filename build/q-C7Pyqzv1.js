@@ -1,0 +1,1 @@
+import{R as r,E as n}from"./q-CiWxxG_J.js";import{a5 as a}from"./q-7tXBqjn8.js";const d=()=>{const s=a();return r("div",null,{class:n(o=>o.dropdownDividerClasses.value,[s])},null,3,"Ip_143")};export{d as s_YD02jCuAOtQ};

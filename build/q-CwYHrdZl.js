@@ -1,0 +1,1 @@
+import{a as r,I as t,e as c,r as l}from"./q-CiWxxG_J.js";import{t as e,c as n}from"./q-7tXBqjn8.js";const m=s=>{const a=r(s,["class"]);return t("div",{class:e("flex -space-x-4",n(s.class)),...a,children:c(l,null,3,"Ip_24")},null,0,"Ip_25")};export{m as s_3cd8zqiPRhU};

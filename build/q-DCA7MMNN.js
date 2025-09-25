@@ -1,0 +1,1 @@
+import{a,I as o,f as t}from"./q-CiWxxG_J.js";import{t as e,c as m}from"./q-7tXBqjn8.js";const d=r=>{const s=a(r,["class"]);return o("hr",{class:e("mx-auto my-4 h-1 w-48 rounded-sm border-0 bg-gray-100 dark:bg-gray-700 md:my-10",m(r.class)),role:"separator",...s},{role:t},0,"Ip_189")};export{d as s_F005oropy1Y};

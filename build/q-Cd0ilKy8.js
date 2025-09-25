@@ -1,0 +1,1 @@
+import{e as a,R as n,r as e,E as r,p as o}from"./q-CiWxxG_J.js";import{a5 as d}from"./q-7tXBqjn8.js";const t=()=>{const l=d();return a(o,{children:[n("div",null,{class:r(s=>s.dropdownHeaderContainerClasses.value,[l])},a(e,null,3,"Ip_141"),1,null),n("div",null,{class:r(s=>s.dropdownHeaderSeparatorClasses.value,[l])},null,3,null)]},1,"Ip_142")};export{t as s_gcJCtmTexyc};

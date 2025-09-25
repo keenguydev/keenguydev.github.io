@@ -1,0 +1,1 @@
+import{a as r,e,r as t}from"./q-CiWxxG_J.js";import{t as c,c as l}from"./q-7tXBqjn8.js";const o=s=>{const a=r(s,["tag","class"]);return e(s.tag??"a",{class:c("flex items-center space-x-3 rtl:space-x-reverse",l(s.class)),...a,children:e(t,null,3,"Ip_227")},0,"Ip_228")};export{o as s_9y35KmPl6YI};

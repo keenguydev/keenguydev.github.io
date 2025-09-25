@@ -1,0 +1,1 @@
+import{a as e,I as c,E as l}from"./q-CiWxxG_J.js";const n=s=>{const t=e(s,["class"]);return c("div",{get class(){return[s.class,"absolute h-2 w-2 rotate-45"]},...t},{class:l(a=>[a.class,"absolute h-2 w-2 rotate-45"],[s])},0,"Ip_87")};export{n as s_WXDqclVx3ng};

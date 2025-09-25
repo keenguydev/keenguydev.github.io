@@ -1,0 +1,1 @@
+import{h as r}from"./q-CiWxxG_J.js";import{_hW as h}from"./q-CiWxxG_J.js";const a=o=>{const[t,m,e]=r();clearTimeout(e.value),e.value=Number(setTimeout(()=>m(o),t))};export{h as _hW,a as s_nFgbqkDYehc};

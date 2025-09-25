@@ -1,0 +1,1 @@
+import{a as e,I as a,e as r,u as o,p as c,f as l}from"./q-CiWxxG_J.js";import{t as i,c as m}from"./q-7tXBqjn8.js";const p=s=>{const n=e(s,["components","class"]);return a("div",{class:i("inline-flex",m(s.class)),role:"group",...n,children:s.components.map(t=>r(c,{children:o(t,"button")},1,t.id))},{role:l},0,"Ip_69")};export{p as s_StZzTAP0iE4};

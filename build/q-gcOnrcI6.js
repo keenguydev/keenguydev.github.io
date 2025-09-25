@@ -1,0 +1,1 @@
+import{a,I as r,e,r as n}from"./q-CiWxxG_J.js";import{t as l,c as o}from"./q-7tXBqjn8.js";const i=t=>{const s=a(t,["class"]);return r("time",{class:l("mb-1 text-sm font-normal leading-none text-gray-400 dark:text-gray-500",o(t.class)),...s,children:e(n,null,3,"Ip_335")},null,0,"Ip_336")};export{i as s_L3OUXN0egtw};

@@ -1,0 +1,1 @@
+import{a as e,e as s,r}from"./q-CiWxxG_J.js";import{t as c,c as l}from"./q-7tXBqjn8.js";const n=t=>{const a=e(t,["tag","class"]);return s(t.tag??"h2",{class:c("mb-6 text-sm font-semibold uppercase text-gray-500 dark:text-white",l(t.class)),...a,children:s(r,null,3,"Ip_179")},0,"Ip_180")};export{n as s_loXJ2ytePM8};
