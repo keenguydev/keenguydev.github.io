@@ -1,6 +1,6 @@
 import { component$ } from "@builder.io/qwik"
 
-const Main = component$(() => {
+export default component$(() => {
     return (
         <section>
             <div class="container">
@@ -17,5 +17,3 @@ const Main = component$(() => {
     )
 }
 )
-
-export default Main

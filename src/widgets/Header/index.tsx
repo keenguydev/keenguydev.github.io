@@ -1,7 +1,7 @@
 import { component$ } from "@builder.io/qwik";
 import { Link, useLocation } from "@builder.io/qwik-city";
 
-const Header = component$(() => {
+export default component$(() => {
     const loc = useLocation()
     return (
         <header class="p-[2.2dvh_0] bg-[#040503]">
@@ -38,5 +38,3 @@ const Header = component$(() => {
         </header>
     );
 });
-
-export default Header

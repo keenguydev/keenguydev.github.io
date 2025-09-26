@@ -7,7 +7,7 @@ export interface IFCProjects {
   projects: IProject[];
 }
 
-const Projects = component$<IFCProjects>(({ projects = [] }) => {
+export default component$<IFCProjects>(({ projects = [] }) => {
   const popup = useStore<{ isShown: boolean, data: IProject }>({
     isShown: false,
     data: {
@@ -57,4 +57,3 @@ const Projects = component$<IFCProjects>(({ projects = [] }) => {
   );
 });
 
-export default Projects;
