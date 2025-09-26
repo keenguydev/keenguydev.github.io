@@ -1,6 +1,5 @@
 import { component$ } from "@builder.io/qwik"
 
-
 const Main = component$(() => {
     return (
         <section>

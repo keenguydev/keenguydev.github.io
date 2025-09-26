@@ -1,7 +1,6 @@
 import { component$ } from "@builder.io/qwik";
 import { Link, useLocation } from "@builder.io/qwik-city";
 
-
 const Header = component$(() => {
     const loc = useLocation()
     return (
