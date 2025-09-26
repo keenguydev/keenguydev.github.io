@@ -1,8 +1,8 @@
 import { component$, Resource, useResource$ } from "@builder.io/qwik";
 import { type DocumentHead } from "@builder.io/qwik-city";
 import { IProject } from "~/entities/project";
-import Main from "~/widgets/Main";
-import Projects from "~/widgets/Projects";
+import Main from "~/widgets/main";
+import Projects from "~/widgets/projects";
 
 export default component$(() => {
   const projects = useResource$<IProject[]>(async () => {

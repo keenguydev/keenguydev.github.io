@@ -1,6 +1,6 @@
 import { component$, Resource, useResource$ } from "@builder.io/qwik";
 import { type DocumentHead } from "@builder.io/qwik-city";
-import FCContacts from "~/entities/contacts";
+import Contacts from "~/entities/contacts";
 import { IContact } from "~/entities/contacts/types";
 
 export default component$(() => {
@@ -30,7 +30,7 @@ export default component$(() => {
       <Resource
         value={contacts}
         onPending={() => <>...loading</>}
-        onResolved={(_contacts) => <FCContacts contacts={_contacts} />}
+        onResolved={(_contacts) => <Contacts contacts={_contacts} />}
       />
 
     </div>

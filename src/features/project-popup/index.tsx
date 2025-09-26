@@ -1,8 +1,8 @@
 import { QRL } from "@builder.io/qwik";
 import dayjs from "dayjs";
-import Popup, { IPopup } from "~/entities/Popup";
-import { IProject } from "~/entities/project";
+import Popup, { IPopup } from "~/shared/ui/popup";
 import { Carousel } from "flowbite-qwik"
+import { IProject } from "~/entities/project";
 
  
 // import ImageGallery, { ReactImageGalleryItem } from "react-image-gallery";

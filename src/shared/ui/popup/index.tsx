@@ -9,7 +9,7 @@ export interface IPopup {
 const Popup = component$<IPopup>(({ isShow, bg }) => {
   useVisibleTask$(({ track }) => {
     track(() => isShow);
-    
+
     // Получаем ссылки на элементы html и body
     const rootElement = document.documentElement;
     const bodyElement = document.body;

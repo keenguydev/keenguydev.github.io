@@ -1,8 +1,8 @@
 import { IContact } from "./types";
-import style from "./FCContacts.module.css";
+import style from "./Contacts.module.css";
 import { component$ } from "@builder.io/qwik";
 
-const FCContacts = component$<{ contacts: IContact[] }>(({ contacts }) => {
+const Contacts = component$<{ contacts: IContact[] }>(({ contacts }) => {
   if (contacts.length === 0) return <></>;
   return (
     <div
@@ -53,4 +53,5 @@ const FCContacts = component$<{ contacts: IContact[] }>(({ contacts }) => {
   );
 })
 
-export default FCContacts;
+
+export default Contacts

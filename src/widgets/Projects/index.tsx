@@ -1,7 +1,7 @@
 import style from "./Projects.module.css";
 import { $, component$, useStore } from "@builder.io/qwik";
 import { IProject } from "~/entities/project";
-import ProjectPopup from "../ProjectPopup";
+import ProjectPopup from "~/features/project-popup";
 
 export interface IFCProjects {
   projects: IProject[];

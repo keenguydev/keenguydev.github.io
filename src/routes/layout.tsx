@@ -1,5 +1,5 @@
 import { component$, Slot } from '@builder.io/qwik';
-import Header from '~/widgets/Header';
+import Header from '~/widgets/header';
 
 export default component$(() => {
     return (
