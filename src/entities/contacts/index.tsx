@@ -10,6 +10,7 @@ const Contacts = component$<{ contacts: IContact[] }>(({ contacts }) => {
         display: "flex",
         flexDirection: "column",
         justifyContent: "center",
+        overflow: 'hidden'
       }}
     >
       {contacts.length > 0 && contacts.map((contact) => {

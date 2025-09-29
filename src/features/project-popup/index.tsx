@@ -4,7 +4,7 @@ import Popup, { IPopup } from "~/shared/ui/popup";
 import { Carousel } from "flowbite-qwik"
 import { IProject } from "~/entities/project";
 
- 
+
 // import ImageGallery, { ReactImageGalleryItem } from "react-image-gallery";
 // import stylesheet if you're not already using CSS @import
 // import "react-image-gallery/styles/css/image-gallery.css";
@@ -39,7 +39,7 @@ const ProjectPopup = ({ project, isShow, onClose$, }: IProjectPopup) => {
     >
       <div
         style={{
-          maxWidth: "101dvh",
+          maxWidth: "88dvh",
           marginTop: "5dvh",
         }}
       >
@@ -52,7 +52,7 @@ const ProjectPopup = ({ project, isShow, onClose$, }: IProjectPopup) => {
           }}
           onClick$={onClose$}
         >
-          <img src="/assets/icons/close.svg"/>
+          <img src="/assets/icons/close.svg" />
         </div>
         <h2
           style={{
@@ -63,10 +63,10 @@ const ProjectPopup = ({ project, isShow, onClose$, }: IProjectPopup) => {
           {project.title}
         </h2>
 
-        <Carousel class="h-[50dvh]! aspect-video" noIndicators pauseOnHover noControls>
+        <Carousel class="min-h-fit h-fit! w-full aspect-video md:min-h-full" noIndicators pauseOnHover noControls>
           {project.media.map((_media) =>
             <Carousel.Slide>
-              <img class="object-fill flex h-full w-full rounded-[8px] border-1 border-[#a7f481] border-dashed" src={_media.url} alt="..." />
+              <img class="object-fill flex h-full rounded-[8px] border-1 border-[#a7f481] border-dashed" src={_media.url} alt="..." />
             </Carousel.Slide>
           )}
         </Carousel>

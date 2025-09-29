@@ -8,6 +8,12 @@
     gap: 2dvh 2dvh;
 }
 
+@media (max-width:768px) {
+    .projects__items {
+        grid-template-columns: 1fr;
+    }
+}
+
 .projects__item {
     position: relative;
     overflow: hidden;
