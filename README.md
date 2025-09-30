@@ -21,4 +21,4 @@
 Если увы хотите со мной свзяваться:
 -
 - 📧 Email: keenguyinbox@gmail.com
-- 💼 Telegram: @keenguydev
+- 💼 Telegram: [@keenguydev](https://t.me/keenguydev)
