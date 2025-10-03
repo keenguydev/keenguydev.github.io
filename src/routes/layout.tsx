@@ -5,7 +5,7 @@ export default component$(() => {
     return (
         <div >
             <Header />
-            <Slot /> {/* <== This is where the route will be inserted */}
+            <Slot />
         </div>
     );
 });

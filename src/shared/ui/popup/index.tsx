@@ -30,6 +30,7 @@ const Popup = component$<IPopup>(({ isShow, bg }) => {
       rootElement.style.overflow = '';
     };
   });
+  
   if (isShow) {
     return (
       <div class={style.popup} style={{ background: bg }}>

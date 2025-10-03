@@ -4,11 +4,6 @@ import Popup, { IPopup } from "~/shared/ui/popup";
 import { Carousel } from "flowbite-qwik"
 import { IProject } from "~/entities/project";
 
-
-// import ImageGallery, { ReactImageGalleryItem } from "react-image-gallery";
-// import stylesheet if you're not already using CSS @import
-// import "react-image-gallery/styles/css/image-gallery.css";
-
 export interface IProjectPopup extends IPopup {
   project: IProject;
   onClose$: QRL<() => void>;
@@ -16,9 +11,6 @@ export interface IProjectPopup extends IPopup {
 
 const ProjectPopup = ({ project, isShow, onClose$, }: IProjectPopup) => {
   // const mdData = useSignal<string>("");
-
-  // const [isIframeShow, setIsIframeShow] = useSignal<boolean>(false);
-  // console.log(project);
 
   // const mdData = useResource$(async () => {
   //   await axios.get(project.readme_url).then((res) => {
