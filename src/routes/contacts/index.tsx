@@ -5,7 +5,7 @@ import { IContact } from "~/entities/contacts/types";
 
 export default component$(() => {
   const contacts = useResource$<IContact[]>(async () => {
-    const response = await fetch('https://deirox.github.io/json/contacts.json')
+    const response = await fetch('https://keenguydev.github.io/json/contacts.json')
     const data = await response.json()
     return data
   })
