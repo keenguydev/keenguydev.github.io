@@ -6,7 +6,7 @@ import Projects from "~/widgets/Projects";
 
 export default component$(() => {
   const projects = useResource$<IProject[]>(async () => {
-    const response = await fetch('https://deirox.github.io/json/projects.json')
+    const response = await fetch('https://keenguydev.github.io/json/projects.json')
     const data = await response.json()
     return data
   })
