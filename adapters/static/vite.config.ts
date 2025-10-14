@@ -12,7 +12,7 @@ export default extendConfig(baseConfig, () => {
     },
     plugins: [
       staticAdapter({
-        origin: "https://deirox.github.io",
+        origin: "https://keenguydev.github.io",
       }),
     ],
   };
