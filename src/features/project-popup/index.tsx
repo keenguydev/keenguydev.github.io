@@ -30,27 +30,16 @@ const ProjectPopup = ({ project, isShow, onClose$, }: IProjectPopup) => {
       isShow={isShow}
     >
       <div
-        style={{
-          maxWidth: "88dvh",
-          marginTop: "5dvh",
-        }}
+        class="max-w-[88dvh] mt-[5dvh]"
       >
         <div
-          style={{
-            width: "fit-content",
-            marginLeft: "auto",
-            marginBottom: "1.2dvh",
-            cursor: "pointer",
-          }}
+          class="w-fit ml-auto mb-[1.2dvh] cursor-pointer"
           onClick$={onClose$}
         >
           <img src="/assets/icons/close.svg" />
         </div>
         <h2
-          style={{
-            fontSize: "3.6dvh",
-            marginBottom: "2.4dvh",
-          }}
+          class="text-[3.6dvh] mb-[2.4dvh]"
         >
           {project.title}
         </h2>
@@ -64,26 +53,13 @@ const ProjectPopup = ({ project, isShow, onClose$, }: IProjectPopup) => {
         </Carousel>
 
         <div
-          style={{
-            display: "flex",
-            justifyContent: "space-around",
-          }}
+          class="flex justify-around mt-2.5"
         >
           <div
-            style={{
-              width: "fit-content",
-              display: "flex",
-              flexDirection: "column",
-              alignItems: "center",
-            }}
+            class="w-fit flex flex-col items-center"
           >
             <p
-              style={{
-                color: "#8BCE6D",
-                fontSize: "1.6dvh",
-                marginRight: "0.6dvh",
-                marginBottom: "0.6dvh",
-              }}
+              class="text-[#8BCE6D] text-[1.6dvh] mr-[0.6dvh] mb-[0.6dvh]"
             >
               вышел:
             </p>
@@ -91,29 +67,16 @@ const ProjectPopup = ({ project, isShow, onClose$, }: IProjectPopup) => {
             <p>{dayjs(project.released_date).format("DD/MM/YYYY")}</p>
           </div>
           {project.url && project.url.length > 0 && <div
-            style={{
-              width: "fit-content",
-              display: "flex",
-              flexDirection: "column",
-              alignItems: "center",
-            }}
+            class="w-fit flex flex-col items-center"
           >
             <p
-              style={{
-                color: "#8BCE6D",
-                fontSize: "1.6dvh",
-                marginRight: "0.6dvh",
-                marginBottom: "0.6dvh",
-              }}
+              class="text-[#8BCE6D] text-[1.6dvh] mr-[0.6dvh] mb-[0.6dvh]"
             >
               ссылка на сайт проекта:
             </p>
             <a href={project.url} target="_blank">
               <svg
-                class="hvr --svg --stroke"
-                style={{
-                  cursor: "pointer",
-                }}
+                class="hvr --svg --stroke cursor-pointer"
                 stroke="currentColor"
                 fill="none"
                 stroke-width="2"
@@ -134,29 +97,16 @@ const ProjectPopup = ({ project, isShow, onClose$, }: IProjectPopup) => {
           </div>}
           {project.source_url && project.source_url.length > 0 && (
             <div
-              style={{
-                width: "fit-content",
-                display: "flex",
-                flexDirection: "column",
-                alignItems: "center",
-              }}
+              class="w-fit flex flex-col items-center"
             >
               <p
-                style={{
-                  color: "#8BCE6D",
-                  fontSize: "1.6dvh",
-                  marginRight: "0.6dvh",
-                  marginBottom: "0.6dvh",
-                }}
+                class="text-[#8BCE6D] text-[1.6dvh] mr-[0.6dvh] mb-[0.6dvh]"
               >
                 ссылка на исходник проекта:
               </p>
               <a href={project.source_url} target="_blank">
                 <svg
-                  class="hvr --svg --stroke"
-                  style={{
-                    cursor: "pointer",
-                  }}
+                  class="hvr --svg --stroke cursor-pointer"
                   stroke="currentColor"
                   fill="none"
                   stroke-width="2"
@@ -178,7 +128,7 @@ const ProjectPopup = ({ project, isShow, onClose$, }: IProjectPopup) => {
           )}
         </div>
 
-        <div>
+        {/* <div>
           <p
             style={{
               color: "#8BCE6D",
@@ -193,10 +143,10 @@ const ProjectPopup = ({ project, isShow, onClose$, }: IProjectPopup) => {
               fontSize: "2.4dvh",
             }}
           >
-            {/* <Markdown>{mdData}</Markdown> */}
-            {/* {project.description} */}
+            <Markdown>{mdData}</Markdown>
+            {project.description}
           </p>
-        </div>
+        </div> */}
       </div>
     </Popup>
   );

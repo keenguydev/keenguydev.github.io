@@ -18,7 +18,7 @@ export default component$(() => {
       }}
     >
       <div>
-        <p class="accent-color" style={{ textAlign: "center" }}>
+        <p class="accent-color text-center">
           Привет
         </p>
         <p>

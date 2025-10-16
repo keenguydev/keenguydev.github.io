@@ -1,22 +1,16 @@
 import { IContact } from "./types";
-import style from "./Contacts.module.css";
 import { component$ } from "@builder.io/qwik";
 
 const Contacts = component$<{ contacts: IContact[] }>(({ contacts }) => {
   if (contacts.length === 0) return <></>;
   return (
     <div
-      style={{
-        display: "flex",
-        flexDirection: "column",
-        justifyContent: "center",
-        overflow: 'hidden'
-      }}
+      class="flex flex-col justify-center overflow-hidden"
     >
       {contacts.length > 0 && contacts.map((contact) => {
         if (contact.links.length === 0) return <></>;
         return (
-          <div class={style.card} key={contact.id}>
+          <div class="mt-[4dvh]" key={contact.id}>
             <h2 class="accent-color" style={{ textAlign: "center" }}>
               {contact.title}
             </h2>
@@ -24,12 +18,7 @@ const Contacts = component$<{ contacts: IContact[] }>(({ contacts }) => {
               {contact.links.map((link) => (
                 <li
                   key={link.id}
-                  style={{
-                    display: "flex",
-                    columnGap: ".5dvh",
-                    flexWrap: "wrap",
-                    marginBottom: ".25dvh",
-                  }}
+                  class="flex gap-x-[.5dvh] flex-wrap mb-[.25dvh]"
                 >
                   <h4>{link.title}:</h4>
                   <a class="accent-color" href={link.link}>
@@ -37,9 +26,7 @@ const Contacts = component$<{ contacts: IContact[] }>(({ contacts }) => {
                   </a>
                   {link.accent && (
                     <p
-                      style={{
-                        color: "rgba(255,255,255,.5)",
-                      }}
+                      class="text-[rgba(255,255,255,.5)]"
                     >
                       - {link.accent}
                     </p>
