@@ -2,7 +2,7 @@
   {
     "uid": "1",
     "title": "Пэт-проект социальной сети keengram",
-    "readme_url": "https://deirox.github.io/keengram/README.md",
+    "readme_url": "https://keenguydev.github.io/keengram/README.md",
     "media": [
       {
         "uid": "media-1",
@@ -10,13 +10,13 @@
         "url": "/assets/projects/keengram/1.jpg"
       }
     ],
-    "url": "https://deirox.github.io/keengram/",
+    "url": "https://keenguydev.github.io/keengram/",
     "released_date": "2023-09-11T13:08:19.669Z"
   },
   {
     "uid": "2",
     "title": "Простой лендинг проката квадроциклов DriveExtrim",
-    "readme_url": "https://deirox.github.io/keenproject_DriveExtrim/README.md",
+    "readme_url": "https://keenguydev.github.io/keenproject_DriveExtrim/README.md",
     "media": [
       {
         "uid": "media-1",
@@ -24,14 +24,14 @@
         "url": "/assets/projects/DriveExtrim/1.jpg"
       }
     ],
-    "source_url": "https://github.com/deirox/keenproject_DriveExtrim",
-    "url": "https://deirox.github.io/keenproject_DriveExtrim/",
+    "source_url": "https://github.com/keenguydev/keenproject_DriveExtrim",
+    "url": "https://keenguydev.github.io/keenproject_DriveExtrim/",
     "released_date": "2023-09-11T13:08:19.669Z"
   },
   {
     "uid": "3",
     "title": "Светлый яркий сайт по прокату техники driveklub",
-    "readme_url": "https://deirox.github.io/keenproject_driveklub/README.md",
+    "readme_url": "https://keenguydev.github.io/keenproject_driveklub/README.md",
     "media": [
       {
         "uid": "media-1",
@@ -39,8 +39,33 @@
         "url": "/assets/projects/driveklub/1.jpg"
       }
     ],
-    "source_url": "https://github.com/deirox/keenproject_driveklub",
-    "url": "https://deirox.github.io/keenproject_driveklub/",
+    "source_url": "https://github.com/keenguydev/keenproject_driveklub",
+    "url": "https://keenguydev.github.io/keenproject_driveklub/",
     "released_date": "2023-09-11T13:08:19.669Z"
+  },
+  {
+    "uid": "4",
+    "title": "Лендинг Tesla Roadster",
+    "readme_url": "https://keenguydev.github.io/keenproject_tesla-roadster/README.md",
+    "media": [
+      {
+        "uid": "media-1",
+        "type": "image",
+        "url": "/assets/projects/tesla-roadster/1.jpg"
+      },
+      {
+        "uid": "media-2",
+        "type": "image",
+        "url": "/assets/projects/tesla-roadster/2.jpg"
+      },
+      {
+        "uid": "media-3",
+        "type": "image",
+        "url": "/assets/projects/tesla-roadster/3.jpg"
+      }
+    ],
+    "source_url": "https://github.com/keenguydev/keenproject_tesla-roadster",
+    "url": "https://keenguydev.github.io/keenproject_tesla-roadster/",
+    "released_date": "2020-05-17T22:36:19.669Z"
   }
 ]
