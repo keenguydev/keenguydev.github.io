@@ -16,7 +16,7 @@
   {
     "uid": "2",
     "title": "#фриланс Лендинг проката квадроциклов DriveExtrim",
-    "readme_url": "https://keenguydev.github.io/keenproject_DriveExtrim/README.md",
+    "readme_url": "https://keenguydev.github.io/freelanceproject_DriveExtrim/README.md",
     "media": [
       {
         "uid": "media-1",
@@ -24,14 +24,14 @@
         "url": "/assets/projects/DriveExtrim/1.jpg"
       }
     ],
-    "source_url": "https://github.com/keenguydev/keenproject_DriveExtrim",
-    "url": "https://keenguydev.github.io/keenproject_DriveExtrim/",
+    "source_url": "https://github.com/keenguydev/freelanceproject_DriveExtrim",
+    "url": "https://keenguydev.github.io/freelanceproject_DriveExtrim/",
     "released_date": "2023-09-11T13:08:00.009Z"
   },
   {
     "uid": "3",
     "title": "#фриланс Светлый яркий сайт по прокату техники driveklub",
-    "readme_url": "https://keenguydev.github.io/keenproject_driveklub/README.md",
+    "readme_url": "https://keenguydev.github.io/freelanceproject_driveklub/README.md",
     "media": [
       {
         "uid": "media-1",
@@ -39,14 +39,14 @@
         "url": "/assets/projects/driveklub/1.jpg"
       }
     ],
-    "source_url": "https://github.com/keenguydev/keenproject_driveklub",
-    "url": "https://keenguydev.github.io/keenproject_driveklub/",
+    "source_url": "https://github.com/keenguydev/freelanceproject_driveklub",
+    "url": "https://keenguydev.github.io/freelanceproject_driveklub/",
     "released_date": "2023-09-11T13:08:00.009Z"
   },
   {
     "uid": "4",
     "title": "#учебный Лендинг Tesla Roadster",
-    "readme_url": "https://keenguydev.github.io/keenproject_tesla-roadster/README.md",
+    "readme_url": "https://keenguydev.github.io/courseproject_tesla-roadster/README.md",
     "media": [
       {
         "uid": "media-1",
@@ -64,8 +64,8 @@
         "url": "/assets/projects/tesla-roadster/3.jpg"
       }
     ],
-    "source_url": "https://github.com/keenguydev/keenproject_tesla-roadster",
-    "url": "https://keenguydev.github.io/keenproject_tesla-roadster/",
+    "source_url": "https://github.com/keenguydev/courseproject_tesla-roadster",
+    "url": "https://keenguydev.github.io/courseproject_tesla-roadster/",
     "released_date": "2020-05-17T22:36:00.009Z"
   },
   {
@@ -96,7 +96,7 @@
   {
     "uid": "6",
     "title": "#учебный Лендинг LUX CARSHARING",
-    "readme_url": "https://keenguydev.github.io/keenproject_lux-carsharing/README.md",
+    "readme_url": "https://keenguydev.github.io/courseproject_lux-carsharing/README.md",
     "media": [
       {
         "uid": "media-1",
@@ -114,8 +114,8 @@
         "url": "/assets/projects/lux-carsharing/3.jpg"
       }
     ],
-    "source_url": "https://github.com/keenguydev/keenproject_lux-carsharing",
-    "url": "https://keenguydev.github.io/keenproject_lux-carsharing/",
+    "source_url": "https://github.com/keenguydev/courseproject_lux-carsharing",
+    "url": "https://keenguydev.github.io/courseproject_lux-carsharing/",
     "released_date": "2021-03-27T01:12:00.009Z"
   },
   {
@@ -176,7 +176,7 @@
   {
     "uid": "9",
     "title": "#учебный Лендинг AUTOEXPRESS",
-    "readme_url": "https://keenguydev.github.io/keenproject_carshop-autoexpress/README.md",
+    "readme_url": "https://keenguydev.github.io/courseproject_carshop-autoexpress/README.md",
     "media": [
       {
         "uid": "media-1",
@@ -194,14 +194,14 @@
         "url": "/assets/projects/carshop-autoexpress/3.jpg"
       }
     ],
-    "source_url": "https://github.com/keenguydev/keenproject_carshop-autoexpress",
-    "url": "https://keenguydev.github.io/keenproject_carshop-autoexpress/",
+    "source_url": "https://github.com/keenguydev/courseproject_carshop-autoexpress",
+    "url": "https://keenguydev.github.io/courseproject_carshop-autoexpress/",
     "released_date": "2021-05-04T18:04:00.009Z"
   },
   {
     "uid": "10",
     "title": "#учебный Лендинг ODIGO",
-    "readme_url": "https://keenguydev.github.io/keenproject_odigo/README.md",
+    "readme_url": "https://keenguydev.github.io/courseproject_odigo/README.md",
     "media": [
       {
         "uid": "media-1",
@@ -219,8 +219,8 @@
         "url": "/assets/projects/odigo/3.jpg"
       }
     ],
-    "source_url": "https://github.com/keenguydev/keenproject_odigo",
-    "url": "https://keenguydev.github.io/keenproject_odigo/",
+    "source_url": "https://github.com/keenguydev/courseproject_odigo",
+    "url": "https://keenguydev.github.io/courseproject_odigo/",
     "released_date": "2021-05-07T02:23:00.009Z"
   },
   {
@@ -276,7 +276,7 @@
   {
     "uid": "13",
     "title": "#учебный Лендинг SOLAR EXE",
-    "readme_url": "https://keenguydev.github.io/keenproject_solar-exe/README.md",
+    "readme_url": "https://keenguydev.github.io/courseproject_solar-exe/README.md",
     "media": [
       {
         "uid": "media-1",
@@ -294,14 +294,14 @@
         "url": "/assets/projects/solar-exe/3.jpg"
       }
     ],
-    "source_url": "https://github.com/keenguydev/keenproject_solar-exe",
-    "url": "https://keenguydev.github.io/keenproject_solar-exe/",
+    "source_url": "https://github.com/keenguydev/courseproject_solar-exe",
+    "url": "https://keenguydev.github.io/courseproject_solar-exe/",
     "released_date": "2021-06-25T23:44:00.009Z"
   },
   {
     "uid": "14",
     "title": "#учебный Почти многостроничник Vikings",
-    "readme_url": "https://keenguydev.github.io/keenproject_vikings/README.md",
+    "readme_url": "https://keenguydev.github.io/courseproject_vikings/README.md",
     "media": [
       {
         "uid": "media-1",
@@ -329,8 +329,8 @@
         "url": "/assets/projects/vikings/5.jpg"
       }
     ],
-    "source_url": "https://github.com/keenguydev/keenproject_vikings",
-    "url": "https://keenguydev.github.io/keenproject_vikings/",
+    "source_url": "https://github.com/keenguydev/courseproject_vikings",
+    "url": "https://keenguydev.github.io/courseproject_vikings/",
     "released_date": "2021-06-25T23:44:00.009Z"
   },
   {
@@ -366,7 +366,7 @@
   {
     "uid": "16",
     "title": "#фриланс Лендинг Q-inc",
-    "readme_url": "https://keenguydev.github.io/keenproject_q-inc/README.md",
+    "readme_url": "https://keenguydev.github.io/freelanceproject_q-inc/README.md",
     "media": [
       {
         "uid": "media-1",
@@ -384,8 +384,8 @@
         "url": "/assets/projects/q-inc/3.jpg"
       }
     ],
-    "source_url": "https://github.com/keenguydev/keenproject_q-inc",
-    "url": "https://keenguydev.github.io/keenproject_q-inc/",
+    "source_url": "https://github.com/keenguydev/freelanceproject_q-inc",
+    "url": "https://keenguydev.github.io/freelanceproject_q-inc/",
     "released_date": "2021-08-03T03:23:00.009Z"
   },
   {
